@@ -5,7 +5,7 @@ import Content from "./Content";
 const Home = () => {
   return (
     <div>
-      <Menu url={Home} />
+      <Menu urlHome="/Home" />
       <Content />
     </div>
   );
