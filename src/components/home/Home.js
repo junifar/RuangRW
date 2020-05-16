@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "../pkg/Menu";
-import Content from "./Content";
+import Content from "./content/Content";
 
 const Home = () => {
   return (
