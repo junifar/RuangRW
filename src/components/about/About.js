@@ -1,14 +1,12 @@
 import React from "react";
-import Content from "./content/Content";
 import MenuSTF from "../pkg/MenuSTF";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <MenuSTF />
-      <Content />
     </div>
   );
 };
 
-export default Home;
+export default About;

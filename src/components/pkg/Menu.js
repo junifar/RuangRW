@@ -25,6 +25,7 @@ const menuList = MenuSeed.map((data) => (
 ));
 
 const Menu = () => {
+  console.log(window.location.pathname);
   return (
     <div className="ui blue top fixed inverted menu">
       <Link to="/home" className="header item">
