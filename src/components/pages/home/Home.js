@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "./content/Content";
-import MenuSTF from "../pkg/MenuSTF";
+import MenuSTF from "../../pkg/MenuSTF";
 
 const Home = () => {
   return (
