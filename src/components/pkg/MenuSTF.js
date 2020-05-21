@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import GoogleAuth from "./GoogleAuth";
 
 const MenuSeed = [
   { menuId: 1, menuName: "Home", menuUrl: "/home", active: "active" },
@@ -56,12 +57,13 @@ class MenuSTF extends React.Component {
           <div className="item">
             <div className="ui icon input">
               <input type="text" placeholder="Search..." />
-              <i className="search link icon"></i>
+              <i className="search link icon"/>
             </div>
           </div>
           <Link to="/about" className="ui item">
             Logout
           </Link>
+          <GoogleAuth />
         </div>
       </div>
     );
