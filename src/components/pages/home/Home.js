@@ -1,11 +1,11 @@
 import React from "react";
-import Menu from "../pkg/Menu";
-import Content from "./Content";
+import Content from "./content/Content";
+import MenuSTF from "../../pkg/MenuSTF";
 
 const Home = () => {
   return (
     <div>
-      <Menu urlHome="/Home" />
+      <MenuSTF />
       <Content />
     </div>
   );
