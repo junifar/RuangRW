@@ -31,16 +31,5 @@
   flex: 1;
   flex-wrap: wrap;
   padding: 2px;
-}
-
-.magnifier {
-  display: flex;
-  align-items: center;
-  padding-left: 13px;
-}
-
-.boxmagnifier {
-  width: 20px;
-  height: 20px;
-  color: #9aa0a6;
+  outline: none;
 }
