@@ -1,0 +1,46 @@
+.burger {
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.searchbox {
+  flex: 1;
+  display: flex;
+  padding: 0 16px 0 16px;
+}
+
+.box {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  min-width: 320px;
+  height: 44px;
+  border-radius: 24px;
+  z-index: 3;
+  box-shadow: none;
+  margin: auto;
+  width: 70%;
+}
+
+.input {
+  border: none;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.magnifier {
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+}
+
+.boxmagnifier {
+  width: 20px;
+  height: 20px;
+  color: #9aa0a6;
+}
