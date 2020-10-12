@@ -1,8 +1,39 @@
 .centerbox {
   width: auto;
-  margin: 140px 32px 0;
+  margin: 20px 32px 0;
+}
+
+.main{
+  margin-top: 60px;
 }
 
 body{
   background-color: #f5f7fa;
+}
+
+.row{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col_50{
+  max-width: 50%;
+}
+
+.col{
+  padding: 12px 0;
+  width: 100%;
+}
+
+.col_header{
+  font-weight: bolder;
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.col_detail{
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0,0,0,0.06) 0 2px 8px;
+  border-radius: 8px;
+  min-height: 150px;
 }

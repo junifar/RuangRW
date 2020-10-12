@@ -10,6 +10,26 @@ class Coba extends Component {
         <Aux>
           <Header/>
           <main className={classes.main}>
+              <div className={`${classes.row} ${classes.col_50}`}>
+                <div className={classes.col}>
+                    <div className={classes.col_header}>
+                        Your Profile
+                    </div>
+                    <div className={classes.col_detail}>
+                        Detail
+                    </div>
+                </div>
+              </div>
+              <div className={`${classes.row} ${classes.col_50}`}>
+                  <div className={classes.col}>
+                      <div className={classes.col_header}>
+                          Your Profile
+                      </div>
+                      <div className={classes.col_detail}>
+                          Detail
+                      </div>
+                  </div>
+              </div>
               <div className={classes.centerbox}>
                   <SearchBox/>
               </div>
